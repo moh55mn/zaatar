@@ -1,27 +1,18 @@
 import Link from 'next/link';
-import Image from 'next/image';
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center overflow-hidden">
-        <Image
-          src="/hero/Media.jpg"
-          alt="Zaatar Restaurant"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-black/40"></div>
-        <div className="relative z-10 text-center px-4">
-          <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 drop-shadow-lg">
-            Zaatar
+      <section className="h-screen flex items-center justify-center py-20 px-4">
+        <div className="text-center max-w-4xl mx-auto">
+          <h1 className="text-6xl md:text-8xl font-bold text-amber-900 mb-6">
+            Resturant
           </h1>
-          <p className="text-xl md:text-2xl text-white mb-8 drop-shadow-md">
+          <p className="text-xl md:text-2xl text-gray-700 mb-8">
             Authentische Nahostküche
           </p>
-          <div className="flex gap-4 justify-center">
+          <div className="flex gap-4 justify-center flex-wrap">
             <Link 
               href="/menu" 
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors shadow-lg"
@@ -30,7 +21,7 @@ export default function Home() {
             </Link>
             <Link 
               href="/contact" 
-              className="bg-white hover:bg-gray-50 text-amber-600 px-8 py-3 rounded-lg text-lg font-semibold border-2 border-white transition-colors shadow-lg"
+              className="bg-amber-900 hover:bg-amber-950 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors shadow-lg"
             >
               Kontaktieren Sie uns
             </Link>

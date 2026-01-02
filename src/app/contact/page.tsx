@@ -22,14 +22,13 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-amber-900 mb-1">Adresse</h3>
                   <a
-                    href="https://www.google.com/maps/search/Rheinstraße+44-46,+64284+Darmstadt"
+                    href="https://www.google.com/maps/search/Darmstadt"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-amber-600 hover:text-amber-800 hover:underline cursor-pointer"
                   >
                     <p className="text-gray-700">
-                      Rheinstraße 44-46<br />
-                      64284 Darmstadt
+                      Darmstadt
                     </p>
                   </a>
                 </div>
@@ -39,8 +38,18 @@ export default function Contact() {
                 <div className="text-3xl mr-4">📞</div>
                 <div>
                   <h3 className="font-semibold text-amber-900 mb-1">Telefon</h3>
-                  <p className="text-gray-700">
-                    061519679790
+                  {/* Mobile: Clickable */}
+                  <a
+                    href="tel:99999999999"
+                    className="md:hidden text-amber-600 hover:text-amber-800 hover:underline cursor-pointer"
+                  >
+                    <p className="text-gray-700">
+                      99999999999
+                    </p>
+                  </a>
+                  {/* Desktop: Non-clickable */}
+                  <p className="hidden md:block text-gray-700">
+                    99999999999
                   </p>
                 </div>
               </div>

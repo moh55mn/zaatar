@@ -10,6 +10,9 @@ export default function Menu() {
     { name: "Zaatar mit Käse", price: "2,50 €", image: "/menu/Media (1).jpg", category: "Manakish", description: "Knuspriges Fladenbrot mit Zaatar-Gewürzmischung und Akkawi-Käse" },
     { name: "Akkawi Käse", price: "2,50 €", image: "/menu/Media (2).jpg", category: "Manakish", description: "Traditionelles Manakish mit geschmolzenem Akkawi-Käse" },
     { name: "Lahmajin", price: "2,50 €", image: "/menu/Media (3).jpg", category: "Manakish", description: "Dünnes Fladenbrot mit würzigem Lammhackfleisch und Kräutern" },
+    { name: "Fatayer Käse", price: "2,75 €", image: "/menu/Media (1).jpg", category: "Fatayer", description: "Knusprige dreieckige Teigtaschen gefüllt mit Akkawi-Käse und Minze" },
+    { name: "Fatayer Fleisch", price: "3,00 €", image: "/menu/Media (2).jpg", category: "Fatayer", description: "Fatayer mit würziger Hackfleischmischung und Pinienkerne" },
+    { name: "Fatayer Spinat", price: "2,75 €", image: "/menu/Media (3).jpg", category: "Fatayer", description: "Knusprige Teigtaschen mit frischem Spinat und Sumach" },
     { name: "Cola", price: "2,00 €", image: "/menu/Media (4).jpg", category: "Getränke", description: "Klassisches Erfrischungsgetränk" },
     { name: "Fanta", price: "2,00 €", image: "/menu/Media (1).jpg", category: "Getränke", description: "Fruchtig erfrischendes Getränk in verschiedenen Geschmacksrichtungen" },
     { name: "Burger Classic", price: "6,50 €", image: "/menu/Media (2).jpg", category: "Burger", description: "Saftiges Rindfleisch mit Salat, Tomate und hausgemachter Sauce" },
@@ -44,10 +47,10 @@ export default function Menu() {
           Entdecken Sie die authentischen Aromen des Nahen Ostens
         </p>
 
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
           {Object.entries(groupedItems).map(([category, items]) => (
             <div key={category} className="space-y-3">
-              <h2 className="text-2xl font-bold text-amber-900 border-b-2 border-amber-200 pb-2">
+              <h2 className="text-lg font-bold text-amber-900 border-b-2 border-amber-200 pb-2">
                 {category}
               </h2>
               <div className="space-y-2">
