@@ -3,24 +3,24 @@ export default function Contact() {
     <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white py-20 px-4">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-5xl font-bold text-amber-900 text-center mb-4">
-          Contact Us
+          Kontaktieren Sie uns
         </h1>
         <p className="text-center text-gray-600 mb-12 text-lg">
-          We'd love to hear from you
+          Wir freuen uns, von Ihnen zu hören
         </p>
 
         <div className="max-w-2xl mx-auto">
           {/* Contact Information */}
           <div>
             <h2 className="text-2xl font-bold text-amber-900 mb-6 text-center">
-              Get In Touch
+              Nehmen Sie Kontakt auf
             </h2>
             
             <div className="space-y-6">
               <div className="flex items-start">
                 <div className="text-3xl mr-4">📍</div>
                 <div>
-                  <h3 className="font-semibold text-amber-900 mb-1">Location</h3>
+                  <h3 className="font-semibold text-amber-900 mb-1">Adresse</h3>
                   <a
                     href="https://www.google.com/maps/search/Rheinstraße+44-46,+64284+Darmstadt"
                     target="_blank"
@@ -38,7 +38,7 @@ export default function Contact() {
               <div className="flex items-start">
                 <div className="text-3xl mr-4">📞</div>
                 <div>
-                  <h3 className="font-semibold text-amber-900 mb-1">Phone</h3>
+                  <h3 className="font-semibold text-amber-900 mb-1">Telefon</h3>
                   <p className="text-gray-700">
                     061519679790
                   </p>
@@ -48,10 +48,10 @@ export default function Contact() {
               <div className="flex items-start">
                 <div className="text-3xl mr-4">🕐</div>
                 <div>
-                  <h3 className="font-semibold text-amber-900 mb-1">Hours</h3>
+                  <h3 className="font-semibold text-amber-900 mb-1">Öffnungszeiten</h3>
                   <p className="text-gray-700">
-                    Monday - Friday: 11:00 AM - 10:00 PM<br />
-                    Saturday - Sunday: 10:00 AM - 11:00 PM
+                    Montag - Freitag: 11:00 - 22:00 Uhr<br />
+                    Samstag - Sonntag: 10:00 - 23:00 Uhr
                   </p>
                 </div>
               </div>

@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zaatar - Authentic Middle Eastern Cuisine",
-  description: "Experience the rich flavors of traditional Middle Eastern dishes at Zaatar restaurant",
+  title: "Zaatar - Authentische Nahostküche",
+  description: "Erleben Sie die reichhaltigen Aromen traditioneller Nahostgerichte im Restaurant Zaatar",
 };
 
 export default function RootLayout({
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -36,13 +36,13 @@ export default function RootLayout({
               </Link>
               <div className="flex space-x-8">
                 <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
-                  Home
+                  Startseite
                 </Link>
                 <Link href="/menu" className="text-gray-700 hover:text-amber-600 transition-colors">
-                  Menu
+                  Speisekarte
                 </Link>
                 <Link href="/contact" className="text-gray-700 hover:text-amber-600 transition-colors">
-                  Contact
+                  Kontakt
                 </Link>
               </div>
             </div>

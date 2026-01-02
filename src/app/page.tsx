@@ -19,20 +19,20 @@ export default function Home() {
             Zaatar
           </h1>
           <p className="text-xl md:text-2xl text-white mb-8 drop-shadow-md">
-            Authentic Middle Eastern Cuisine
+            Authentische Nahostküche
           </p>
           <div className="flex gap-4 justify-center">
             <Link 
               href="/menu" 
               className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-lg text-lg font-semibold transition-colors shadow-lg"
             >
-              View Menu
+              Speisekarte anzeigen
             </Link>
             <Link 
               href="/contact" 
               className="bg-white hover:bg-gray-50 text-amber-600 px-8 py-3 rounded-lg text-lg font-semibold border-2 border-white transition-colors shadow-lg"
             >
-              Contact Us
+              Kontaktieren Sie uns
             </Link>
           </div>
         </div>
