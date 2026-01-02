@@ -34,14 +34,14 @@ export default function RootLayout({
               <Link href="/" className="text-2xl font-bold text-amber-600">
                 Resturant
               </Link>
-              <div className="flex space-x-8">
-                <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors">
+              <div className="flex space-x-3 sm:space-x-6 md:space-x-8">
+                <Link href="/" className="text-gray-700 hover:text-amber-600 transition-colors text-sm sm:text-base">
                   Startseite
                 </Link>
-                <Link href="/menu" className="text-gray-700 hover:text-amber-600 transition-colors">
+                <Link href="/menu" className="text-gray-700 hover:text-amber-600 transition-colors text-sm sm:text-base">
                   Speisekarte
                 </Link>
-                <Link href="/contact" className="text-gray-700 hover:text-amber-600 transition-colors">
+                <Link href="/contact" className="text-gray-700 hover:text-amber-600 transition-colors text-sm sm:text-base">
                   Kontakt
                 </Link>
               </div>
